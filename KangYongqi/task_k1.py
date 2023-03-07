@@ -35,16 +35,16 @@ else:
 # 结果——>8在列表中
 
 # 元组类型数据的操作
-my_tuple = (1,2,3,4,5)
+my_tuple = (1, 2, 3, 4, 5)
 # 元组不支持添加、删除和替换元素的操作，但可以查询元素是否存在，方法类似列表
 if 6 in my_tuple:
     print("6在元组中")
 else:
-    print('6'+"不在元组中")
+    print('6' + "不在元组中")
 # 结果——>6不在元组中
 
 # 集合类型数据的操作
-my_set = {1,2,3,4,5,6}
+my_set = {1, 2, 3, 4, 5, 6}
 
 # 添加元素到集合中，添加的重复元元素不会生效
 my_set.add(8)
@@ -66,7 +66,7 @@ else:
 # 5在集合中
 
 # 字典数据类型
-my_dict = {"name":"KYQ","age":21,"gender":"male"}
+my_dict = {"name": "KYQ", "age": 21, "gender": "male"}
 
 # 添加键与值到字典中
 my_dict["city"] = "Anhui"
@@ -93,14 +93,3 @@ if "gender" in my_dict:
     print("字典中存在gender这个键")
 else:
     print("字典中不存在gender这个键")
-
-
-
-
-
-
-
-
-
-
-
