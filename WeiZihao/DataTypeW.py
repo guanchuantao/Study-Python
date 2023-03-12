@@ -25,6 +25,12 @@ print(h,type(h))
 #将整数类型转换为字符串类型
 I=str(11111)
 print(I,type(I))
+
+# 字符串类型转换为整数（数字型字符串）
+
+# 布尔类型转换成整数
+
+
 #将列表类型转换为元组类型
 J=tuple(gg)
 print(J,type(J))
