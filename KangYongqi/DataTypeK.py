@@ -42,6 +42,10 @@ print(j, type(j))
 k = str(88888888)
 print(k, type(k))
 
+int_c = int(True)
+print('布尔转整数', int_c)
+
+
 # 将列表类型转换为元组类型
 l = tuple(e)
 print(l, type(l))
