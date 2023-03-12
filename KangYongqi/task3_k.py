@@ -87,4 +87,8 @@ for i in range(list_length):
     # list2[i] = i 该写法错误
     list2.append(i)
 print(list2)
+
+list_test = [i for i in range(list_length)]
+print('list_test', list_test)
+
 # 运行结果为 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
