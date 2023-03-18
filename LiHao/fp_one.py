@@ -135,3 +135,9 @@ else:
     print(x+y**2)
 # 要是输入的不是数字如何修改提醒输入者输入错误
 
+# 弗里德曼分布
+import scipy.stats as stats
+stats.friedmanchisquare([36,18],[89,15],[248,44],[178,15],[79,10])
+
+import scipy.stats as stats
+stats.friedmanchisquare([85,87,90,80],[82,75,81,75],[82,86,80,81],[79,82,76,75])
